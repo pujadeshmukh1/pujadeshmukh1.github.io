@@ -1,375 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="./image/site.jpg" rel="shortcut icon" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-       rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
-       integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+     <!-- Favicon -->
+     <link id='favicon' rel="shortcut icon" href="p-logo.png" type="image/x-png">
+    <title>Puja Deshmukh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- navbar===  -->
+     <header >
    
-    
-  </head>
-  <body>
-    <header>
-      <div class="user">
-        <img src="mypic.jpg" alt="" />
-        <h3 class="name">Puja Deshmukh</h3>
-        <p class="post">Java Backend Developer</p>
-      </div>
-
-      <nav class="navbar">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#skill">My Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1OBZpGU-7Tis3XtCt7_7mC3g7iESQ27U1/view?usp=sharing" target="blank">Resume</a></li>
-        </ul>
-      </nav>
+        <a href="index.html" class="logo"> Puja</a>
+        <div id="menu" class="fas fa-bars"></div>
+       
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#skill">SKILLS</a></li>
+                <!-- <li><a href="#stat">STATS</a></li> -->
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a id="resume" href="Puja_Deshmukh_Resume.pdf" download> RESUME</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div id="menu" class="fas fa-bars"></div>
+   
+    <!-- <div id="menu" class="fas fa-bars"></div> -->
 
     <section class="home" id="home">
-      <h3>Hi there !</h3>
-      <h1>I'm <span id="deshpandey">Puja Deshmukh</span></h1>
-      <p>
-        Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs,
-        Git/GitHub, AWS, HTML, CSS, JavaScript, OOPs, and design. Self-motivated and curious,
-        with a keen interest in building user-centric products looking forward to honing my skills in a
-        challenging work environment.
-      </p>
-      <a href="#about"
-        ><button class="btn">About Me <i class="fas fa-user"></i></button
-      ></a>
-    </section>
+        <div class="home1">
+          <div class="mypic">
+            <img src="mypic.jpg" alt="">
+        </div>
+        <div class="p">
+        <h1>I'm <span id="deshpandey">Puja Deshmukh</span></h1>
+        <p>
+          Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs,
+          Git/GitHub, AWS, HTML, CSS, JavaScript, OOPs, and design. Self-motivated and curious,
+          with a keen interest in building user-centric products looking forward to honing my skills in a
+          challenging work environment.
+        </p>
+        <a href="#about"
+          ><button class="btn">About Me <i class="fas fa-user"></i></button
+        ></a>
+    </div>
+   
+</div>
+      </section>
+
+      
+
+<!-- ========================================================= -->
 
     <section class="about" id="about">
-      <h1 class="heading"><span>About </span>Me</h1>
-      <div class="row">
-        <div class="info">
-          <h3><span>Name : </span>Puja Rajesh Deshmukh</h3>
-          <h3><span>Age : </span>25</h3>
-          <h3><span>Post : </span>Java Backend Developer</h3>
-          <h3><span>Qualification : </span>Bachlor of Engineering</h3>
-          <h3><span>Language : </span>English</h3>
-          <a href="#resume">
-          <a href="https://drive.google.com/file/d/1OBZpGU-7Tis3XtCt7_7mC3g7iESQ27U1/view?usp=sharing" download="Puja Deshmukh_resume" target="_blank"
-            ><button class="btn">
-              Download Resume <i class="fas fa-download"></i></button
-          ></a>
-        </a>
+        <h1 class="heading"><span>About </span>Me</h1>
+        <div class="row">
+          <div class="info">
+            <h3><span>Name : </span>Puja Rajesh Deshmukh</h3>
+            <h3><span>Age : </span>25</h3>
+            <h3><span>Post : </span>Java Backend Developer</h3>
+            <h3><span>Qualification : </span>Bachlor of Engineering</h3>
+            <h3><span>Language : </span>English</h3>
+            <a href="#resume">
+            <a href="Puja_Deshmukh_Resume.pdf" download="Puja Deshmukh_resume" target="_blank"
+              >
+              <button class="btn">
+                Download Resume <i class="fas fa-download"></i></button
+            ></a>
+          </a>
+          </div>
+          <div class="counter">
+            <div class="box">
+              <span>2100+</span>
+              <h3>hours of coding</h3>
+            </div>
+            <div class="box">
+              <span>1000+</span>
+              <h3>hours of DSA</h3>
+            </div>
+            <div class="box">
+              <span>10+</span>
+              <h3>Projects</h3>
+            </div>
+          </div>
         </div>
-        <div class="counter">
+      </section>
+  
+  <!-- ========================================================= -->
+  
+  
+      <section class="education" id="education">
+        <h1 class="heading">My <span>Education</span></h1>
+        <div class="box-container">
           <div class="box">
-            <span>2100+</span>
-            <h3>hours of coding</h3>
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>Java Backend Developer</h3>
+            <p>
+              Persuing Full Stack Web Developing from Masai. I have Experienced
+              2100+ hours on coding. I have learned most of the tings from in
+              here.
+            </p>
+          </div>
+  
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2016-21</span>
+            <h3>Bachelor in Engineering</h3>
+            <p>
+              Completed my Bachelor degree in Mechanical Engineering from Suresh Deshmukh College of
+              Enginnering, Wardha.
+            </p>
           </div>
           <div class="box">
-            <span>1000+</span>
-            <h3>hours of DSA</h3>
+            <i class="fas fa-graduation-cap"></i>
+            <span>2014-16</span>
+            <h3>Higher Secondary School</h3>  
+            <p>
+              Completed my Higher Secondary in Science from D.M.Burungle College , Shegaon.
+            </p>
           </div>
+        </div>
+      </section>
+  
+  
+  <!-- ================================================================ -->
+  
+  
+      <section class="project" id="project">
+        <h1 class="heading-pro">My <span>Projects</span></h1>
+  
+        <div class="project-cont">
           <div class="box">
-            <span>10+</span>
-            <h3>Projects</h3>
+            <div class="img">
+              <img src="tata1 mg.jpg" alt="" />
+              <div>
+                <a href="https://tiny-maamoul-5ed599.netlify.app/" target="_blank"><button class="btn"><i class="fas fa-eye"></i> Live</button></a>
+                <a href="https://github.com/Aditi101049/1mg-clone" target="_blank"><button class="btn"><i class="fa-brands fa-github"></i> Code</button></a>
+              </div>
+            </div>
+            <div class="desc">
+              <h3>Tata 1mg Clone</h3>
+              <p>This is the clone of TATA 1mg website. A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.</p>
+              <div class="tec">
+                <h4>Tech Stack</h4>
+                <img src="https://skillicons.dev/icons?i=html,css,javascript,github">   
+              </div>
+           </div>
           </div>
+  
+  
+          <div class="box">
+            <div class="img">
+              <img src="indiaToday.jpg" alt="" />
+              <div>
+                <a href="https://gregarious-creponne-130c2f.netlify.app/" target="_blank"><button class="btn"><i class="fas fa-eye"></i> Live</button></a>
+                <a href="https://github.com/Himanshu-t-y-a-g-i/abrupt-kitty-9277" target="blank"><button class="btn"><i class="fa-brands fa-github"></i> Code</button></a>
+              </div>
+            </div>
+            <div class="desc">
+              <h3>IndiaToday Clone.</h3>
+              <p>Today is a weekly Indian English-language news magazine published by Living Media India Limited. It was built by 4 members including me from start to finish within a span of a week..</p>
+              <div class="tec">
+                <h4>Tech Stack</h4>
+                <img src="https://skillicons.dev/icons?i=html,css,javascript,github">  
+              </div>
+           </div>
+          </div>
+  
+  
+  
+           <div class="box">
+            <div class="img">
+              <img src="projectLogo.png.jpg" alt="" />
+              <div>
+                <a href="https://gregarious-creponne-130c2f.netlify.app/" target="_blank"><button class="btn"><i class="fas fa-eye"></i> Live</button></a>
+                <a href="https://github.com/Farheen-cell/-gabby-cushion-20747" target="blank"><button class="btn"><i class="fa-brands fa-github"></i> Code</button></a>
+              </div>
+            </div>
+            <div class="desc">
+              <h3>online shoping Application.</h3>
+              <p>We made a Backend Application to Perform CRUD Operation and Made RestFul APIs Service Using java, SpringBoot, lombok and swagger-UI for online shoping Application. This project is developed by team of 5 Back-end Developers during construct week in Masai</p>
+              <div class="tec">
+                <h4>Tech Stack</h4>
+                <img src="https://skillicons.dev/icons?i=java,mysql,github">    
+              </div>
+           </div>
+          </div>
+  
+  
+          <div class="box">
+            <div class="img">
+              <img src="Course-Monitoring-System.png.jpg" alt="" />
+              <div>
+                <a href="https://github.com/pujadeshmukh1/Course-Monitoring-System-pink-cactus-3310-" target="_blank"><button class="btn"><i class="fas fa-eye"></i> Live</button></a>
+                <a href="https://github.com/pujadeshmukh1/Course-Monitoring-System-pink-cactus-3310-" target="blank"><button class="btn"><i class="fa-brands fa-github"></i> Code</button></a>
+              </div>
+            </div>
+            <div class="desc">
+              <h3>Course Monitoring System.</h3>
+              <p>Console Based Course-Monitoring-System for an Educational Institute. So this Automated Course Monitoring System will keep the records of all the courses,batches,faculties and the daywise update for every batch. It will also help the Faculty Head to maintain the course platform.</p>
+              <div class="tec">
+                <h4>Tech Stack</h4>
+                <img src="https://skillicons.dev/icons?i=java,mysql,github">    
+              </div>
+           </div>
+          </div>
+  
+  
         </div>
-      </div>
-    </section>
-
-    <section class="education" id="education">
-      <h1 class="heading">My <span>Education</span></h1>
-      <div class="box-container">
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <span>2022</span>
-          <h3>Java Backend Developer</h3>
-          <p>
-            Persuing Full Stack Web Developing from Masai. I have Experienced
-            2100+ hours on coding. I have learned most of the tings from in
-            here.
-          </p>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <span>2016-21</span>
-          <h3>Bachelor in Engineering</h3>
-          <p>
-            Completed my Bachelor degree in Mechanical Engineering from Suresh Deshmukh College of
-            Enginnering, Wardha.
-          </p>
-        </div>
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <span>2014-16</span>
-          <h3>Higher Secondary School</h3>  
-          <p>
-            Completed my Higher Secondary in Science from D.M.Burungle College , Shegaon.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="project" id="project">
-      <h1 class="heading-pro">My <span>Projects</span></h1>
-      <div class="box-container">
-        <div class="box">
-          <img src="tata1 mg.jpg" alt="" />
-         
-          <h2>Tata 1mg Clone.</h2>
-          <p>
-            <span>Tata 1mg</span> is India's leading consumer health platform.
-            It aspires to be the trusted health partner for all Indians and its
-            mission is to make healthcare accessible.
-        </p>  
+        <!-- <div class="box-container">
+          <div class="box">
+            <div class="img1">
+              <img id="i" src="tata1 mg.jpg" alt="" />
+            </div>
+           
+           
+            <div class="but">
+              <a href="https://github.com/Aditi101049/1mg-clone" target="blank">
+                <button class="btn1">Code <i class="fa-brands fa-github"></i></button>
+                </a>
+              <a href="https://effortless-salamander-022257.netlify.app/" target="blank">
+                <button class="btn2">Live 
+                  <i class="fa-brands fa-github"></i></button>
+            </a>
       
-          <p>
-            <span>Collaborative project</span> accomplished with a team of 5
-            developers in 7days
-          </p>
-          <div class="but">
-      <a href="https://github.com/Aditi101049/1mg-clone" target="blank">
-        <button class="btn">Code <i class="fa-brands fa-github"></i></button>
-      </a>
-      <a href="https://effortless-salamander-022257.netlify.app/" target="blank">
-        <button class="btn">Live Site<i class="fa-brands fa-github"></i></button>
-    </a>
+                </div>
+          </div>
+  
+         <div class="box">
+          <div class="desc">
+            <h1>Tata 1mg Clone</h1>
+            <h2>This is the clone of TATA 1mg website.A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.</h2>
+            <div class="tec">
+              <h3>Tech Stack</h3>
+              <div class="img1">
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">   <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">   
+              </div>
+              
+            </div>
+         </div>
+          
     </div>
-    </div>
+       </div>
+  
+  
+       <div class="box-container">
         <div class="box">
-          <img src="indiaToday.jpg" alt="" />
-          <h2>IndiaToday Clone.</h2>
-          <p>
-            <span>IndiaToday</span> is a weekly Indian English-language news magazine published by Living Media India Limited.
-          </p>
+          <div class="img1">
+            <img id="i" src="indiaToday.jpg" alt="" />
+          </div>
          
-          <p>
-            <span>Collaborative project</span> accomplished with a team of 5
-            developers executed in 6 days
-          </p>
-        
-
+         
           <div class="but">
+            <a href="https://github.com/Himanshu-t-y-a-g-i/abrupt-kitty-9277" target="blank">
+              <button class="btn1">Code <i class="fa-brands fa-github"></i></button>
+              </a>
+            <a href="https://gregarious-creponne-130c2f.netlify.app/" target="blank">
+              <button class="btn2">Live 
+                <i class="fa-brands fa-github"></i></button>
+          </a>
+    
+              </div>
+        </div>
+  
+       <div class="box">
+        <div class="desc">
+          <h1>IndiaToday Clone.</h1>
+          <h2>India Today is a weekly Indian English-language news magazine published by Living Media India Limited. It was built by 4 members including me from start to finish within a span of a week..</h2>
+          <div class="tec">
+            <h3>Tech Stack</h3>
+          
+            <div class="img1">
+              <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+               <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">   
+               <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">   
+            </div> 
+            
+          </div>
+       </div>
+        
+  </div>
+     </div>
+  
+  
+  
+     <div class="box-container">
+      <div class="box">
+        <div class="img1">
+          <img id="i" src="tata1 mg.jpg" alt="" />
+        </div>
+       
+       
+        <div class="but">
+          <a href="https://github.com/Himanshu-t-y-a-g-i/abrupt-kitty-9277" target="blank">
+            <button class="btn1">Code <i class="fa-brands fa-github"></i></button>
+            </a>
+          <a href="https://gregarious-creponne-130c2f.netlify.app/" target="blank">
+            <button class="btn2">Live 
+              <i class="fa-brands fa-github"></i></button>
+        </a>
+  
+            </div>
+      </div>
+  
+     <div class="box">
+      <div class="desc">
+        <h1>Tata 1mg Clone</h1>
+        <h2>This is the clone of TATA 1mg website.A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.</h2>
+        <div class="tec">
+          <h3>Tech Stack</h3>
+          <div class="img1">
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">   <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">   
+          </div>
+          
+        </div>
+     </div>
+      
+  </div>
+   </div>
+  
+  
+   <div class="box-container">
+    <div class="box">
+      <div class="img1">
+        <img src="tata1 mg.jpg" alt="" />
+      </div>
+     
+     
+      <div class="but">
         <a href="https://github.com/Himanshu-t-y-a-g-i/abrupt-kitty-9277" target="blank">
-          <button class="btn">Code <i class="fa-brands fa-github"></i></button>
+          <button class="btn1">Code <i class="fa-brands fa-github"></i></button>
           </a>
         <a href="https://gregarious-creponne-130c2f.netlify.app/" target="blank">
-          <button class="btn">Live 
-            Site<i class="fa-brands fa-github"></i></button>
+          <button class="btn2">Live 
+            <i class="fa-brands fa-github"></i></button>
       </a>
-
-          </div>
-        </div>
-      </div>
-     
-     </section>
-    <!-- <section class="calen">
-      <h1 class="heading-cal">My <span>GitHub-Calendar</span></h1>
-      <div class="calendar">
-            
-      </div>
-      
-        <h1 class="heading-cal">My <span>GITHUB STATISTICS</span></h1>
-        <div  class="statistics">
-        <div class="img1"> 
-          
-         <img  src="https://github-readme-streak-stats.herokuapp.com/?user=pujadeshmukh1" alt="">
-      
-      
-         <img src="https://github-readme-stats.vercel.app/api?username=pujadeshmukh1" alt="">
-        </div>
-         <div class="img2">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pujadeshmukh&show_icons=true&locale=en&layout=compact" alt="pujadeshmukh" alt="">
-        
-          </div>
-      </div>
-        </div>
-        </section>  -->
-    <section class="skill" id="skill">
-      <h1 class="heading-skill">My <span>Skills</span></h1>
-      <div class="box-container">
-        <!-- <div class="main"> -->
-        <div class="box">
-          <img
-            src="https://www.buildateam.io/wp-content/uploads/2018/07/logo-java.png"
-            alt=""
-          />
-          <h3>Java</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://leadgenapp.io/wp-content/uploads/2022/03/c23b6298d70e5cc925a8e795e48b6898.png"
-            alt=""
-          />
-          <h3>MySQL</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://miro.medium.com/max/856/1*O68LbDvD5Dcsnez73M7v4Q.png"
-            alt=""
-          />
-          <h3>Spring Boot</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://design.jboss.org/hibernate/logo/final/hibernate_icon_darkbkg_256px.gif"
-            alt=""
-          />
-          <h3>Hibernate</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
-            alt=""
-          />
-          <h3>Github</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://chiranjeev-thapliyal.vercel.app/svg/amazon-web-services.svg"
-            alt=""
-          />
-          <h3>AWS</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://portfolio-saravanakumarjn.vercel.app/static/media/html_5.e7638e36.svg"
-            alt=""
-          />
-          <h3>HTML</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://portfolio-saravanakumarjn.vercel.app/static/media/css_3.e7a9de36.svg"
-            alt=""
-          />
-          <h3>CSS3</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://portfolio-saravanakumarjn.vercel.app/static/media/javascript.fd46ca41.svg"
-            alt=""
-          />
-          <h3>JavaScript</h3>
-        </div>
-        <div class="box">
-          <img
-            src="https://media.istockphoto.com/vectors/flowchart-icon-on-a-black-background-vector-id488916446?k=20&m=488916446&s=612x612&w=0&h=OQeEPHSxRq_wKF4bF_crFzzcTeK0aqQBaevYYIGHTIw="
-            alt=""
-          />
-          <h3>DSA</h3>
-        </div>
-        <!-- </div> -->
-      </div>
-    </section>
-
-     <section class="calen">
-    <h1 class="heading-cal">My <span>GitHub-Calendar</span></h1>
-    <div class="calendar">
-       
-    </div>
-    
-      <h1 class="heading-stat">My <span>GITHUB STATISTICS</span></h1>
-      <div  class="statistics">
-      <div class="img1"> 
-        
-       <img  src="https://github-readme-streak-stats.herokuapp.com/?user=pujadeshmukh1" alt="">
-    
-    
-       <img src="https://github-readme-stats.vercel.app/api?username=pujadeshmukh1" alt="">
-      </div>
-       <div class="img2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pujadeshmukh&show_icons=true&locale=en&layout=compact" alt="pujadeshmukh" alt="">
-      
-        </div>
-    </div>
-      </div>
-      </section> -->
-
-
-    <section class="contact" id="contact">
-      <h1 class="heading-cont"><span>Contact</span> Me</h1>
-      <div class="row">
-        <div class="content">
-          <h3 class="title">Contact Info</h3>
-          <div class="info">
-            <h3><i class="fas fa-envelope"></i>Deshmukhpooja976@gmail.com</h3>
-            <h3><i class="fas fa-phone"></i> +91-7814147985</h3>
-            <h3>
-              <i class="fas fa-map-marker-alt"></i> Akola, Maharastra - 444001.
-            </h3>
-          </div>
-        </div>
-        <form action="https://formsubmit.co/el/yivayu" method="POST">
-          <input type="text" placeholder="name" class="box" />
-          <input type="email" placeholder="email" class="box" />
-          <input type="text" placeholder="project" class="box" />
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            class="box message"
-            placeholder="message"
-          ></textarea>
-          <button type="submit" class="btn">
-            Send <i class="fas fa-paper-plane"></i>
-          </button>
-        </form>
-      </div>
-      <div class="conct">
-        <a href="https://github.com/pujadeshmukh1" target="_blank" >Github <i width="60px" class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/puja-deshmukh-a7ba39184/" target="_blank" >Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-      </div>
-    
   
-      </div> 
-    </section>
-
-
-    <a href="#home" class="top">
-      <img src="movingbar.png" alt="" />
-    </a>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-    <script>
-      
-      GitHubCalendar(".calendar", "pujadeshmukh1", { responsive: true });
-
+          </div>
+    </div>
+  
+   <div class="box">
+    <div class="desc">
+      <h1>Tata 1mg Clone</h1>
+      <h2>This is the clone of TATA 1mg website.A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.</h2>
+      <div class="tec">
+        <h3>Tech Stack</h3>
+        <div class="img1">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">   <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">   
+        </div>
+        
+      </div>
+   </div>
+    
+  </div>
+  </div> -->
+         
+       
+       </section>
      
-      GitHubCalendar(".calendar", "pujadeshmukh1", {
-        proxy(pujadeshmukh1) {
-          return fetch(`https://your-proxy.com/github?user=${pujadeshmukh1}`);
-        },
-      }).then((r) => r.text());
-    </script>
-    <script src="main.js"></script>
-  </body>
+       <section class="github" id="github">
+        <h1 class="heading">My <span>GitHub Calendar</span></h1>
+        <div class="container">
+          
+  
+          <div class="cal-cont">
+            <div class="calendar">
+    
+            </div>
+          </div>
+  
+          <div class="github-cont">
+          
+            <h1 class="heading"> GitHub <span> Statistics</span></h1>
+            <div class="git-cont">
+              <img src="https://img.shields.io/github/followers/pujadeshmukh1?label=Github%20Connection&style=flat" alt="">
+              <img src="https://visitor-badge.laobi.icu/badge?page_id=pujadeshmukh1.visitor-badge.issue.1&title=Github%20Visitors" alt="">
+            </div>
+            <div class="stats-cont">
+              <img src="https://github-readme-streak-stats.herokuapp.com/?user=pujadeshmukh1&theme=gotham&hide_border=false" />
+              <img src="https://github-readme-stats.vercel.app/api?username=pujadeshmukh1&show_icons=true&theme=gotham&hide_border=false" />
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </section>
+      
+       
+        
+      <section class="skill" id="skill">
+        <h1 class="heading">My <span>Skills</span></h1>
+        <div class="box-container">
+          <!-- <div class="main"> -->
+            <div class="box">
+              <img
+                src="https://www.bing.com/th?id=OIP.af08cgSKZKjFwRvHhuiFcQAAAA&w=151&h=148&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                alt=""
+              />
+              <h3>Spring Boot</h3>
+            </div>
+          <div class="box">
+            <img
+              src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+              alt=""
+            />
+            <h3>Java</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://img.icons8.com/color/48/000000/mysql-logo.png"
+              alt=""
+            />
+            <h3>MySQL</h3>
+          </div>
+  
+          <div class="box">
+            <img
+              src="https://design.jboss.org/hibernate/logo/final/hibernate_icon_darkbkg_256px.gif"
+              alt=""
+            />
+            <h3>Hibernate</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
+              alt=""
+            />
+            <h3>Github</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://chiranjeev-thapliyal.vercel.app/svg/amazon-web-services.svg"
+              alt=""
+            />
+            <h3>AWS</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://th.bing.com/th/id/OIP.bI8KDjd8-nDvzTX_Uok7FwHaHa?w=196&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              alt=""
+            />
+            <h3>HTML</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://th.bing.com/th/id/OIP.3yIVq4yaJnIb40HUu7GZxAHaIc?w=171&h=195&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+              alt=""
+            />
+            <h3>CSS3</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://th.bing.com/th/id/OIP.eQRqVTzi6ep_wZku3iDmEAHaIZ?pid=ImgDet&rs=1"
+              alt=""
+            />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://media.istockphoto.com/vectors/flowchart-icon-on-a-black-background-vector-id488916446?k=20&m=488916446&s=612x612&w=0&h=OQeEPHSxRq_wKF4bF_crFzzcTeK0aqQBaevYYIGHTIw="
+              alt=""
+            />
+            <h3>DSA</h3>
+          </div>
+          
+          <div class="box">
+            <img
+              src="https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+              alt=""
+            />
+            <h3>JQuery</h3>
+          </div>
+  
+          <div class="box">
+            <img
+              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+              alt=""
+            />
+            <h3>Netlify</h3>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+  
+     
+  
+  
+      <section class="contact" id="contact">
+        
+        <h1 class="heading"> Contact <span> Me</span></h1>
+      
+        <div class="row">
+          <div class="content">
+            <h3 class="title">Contact Info</h3>
+            <div class="info">
+              <h3><i class="fas fa-envelope"></i>Deshmukhpooja976@gmail.com</h3>
+              <h3><i class="fas fa-phone"></i> +91-7814147985</h3>
+              <h3>
+                <i class="fas fa-map-marker-alt"></i> Akola, Maharastra - 444001.
+              </h3>
+            </div>
+          </div>
+          <form action="https://formsubmit.co/el/yivayu" method="POST">
+            <input type="text" placeholder="name" class="box" />
+            <input type="email" placeholder="email" class="box" />
+            <input type="text" placeholder="project" class="box" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="box message"
+              placeholder="message"
+            ></textarea>
+            <button type="submit" class="btn">
+              Send <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+        <div class="conct">
+          <a href="https://github.com/pujadeshmukh1" target="_blank" >Github <i width="60px" class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/puja-deshmukh-a7ba39184/" target="_blank" >Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+      
+      
+    
+        </div> 
+      </section>
+  
+  
+      <a href="#home" class="top">
+        <img src="pic3.png" alt="" />
+     
+  
+      </a>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  </script>
+      <script>
+        
+        GitHubCalendar(".calendar", "pujadeshmukh1", { responsive: true });
+  
+       
+        GitHubCalendar(".calendar", "pujadeshmukh", {
+          proxy(pujadeshmukh1) {
+            return fetch(`https://your-proxy.com/github?user=${pujadeshmukh1}`);
+          },
+        }).then((r) => r.text());
+      </script>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
+</body>
 </html>
