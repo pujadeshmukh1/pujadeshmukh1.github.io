@@ -466,14 +466,15 @@
 
       GitHubCalendar(".calendar", "pujadeshmukh1", { responsive: true });
       
-      GitHubCalendar(".calendar", "pujadeshmukh", {
+    // Use a proxy
+    GitHubCalendar(".calendar", "pujadeshmukh1", {
+        proxy(username) {
+            return fetch(`https://your-proxy.com/github?user=${username}`)
+        }
+    })
 
-      proxy(pujadeshmukh1) {
+    
 
-      return fetch(`https://your-proxy.com/github?user=${pujadeshmukh1}`);
-
-      },
-        }).then((r) => r.text());
 
       </script>
       <script src="script.js"></script>
