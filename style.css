@@ -352,7 +352,7 @@ header .navbar ul li a:hover {
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .work-experience h2 {
@@ -590,11 +590,13 @@ header .navbar ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
   border-radius: 10px;
+  
 }
 
 
 
 .heading-cont {
+  
   text-align: center;
   margin: 0 6rem;
   font-size: 4rem;
@@ -608,9 +610,11 @@ header .navbar ul li a:hover {
   color: #222222;
 }
 .contact .row .content {
+  
   flex: 1 1 30rem;
   padding: 4rem 0;
   padding-bottom: 0;
+  margin-bottom: 15%;
 }
 .contact .row form{
   flex: 1 1 45rem;
@@ -929,7 +933,13 @@ text.ContributionCalendar-label {
 }
 
 
+.btngithub{
+  background-color: #1D75AB;
+  width: 20%;
+  height: 30px;
+  border-radius: 20px;
 
+}
 
 
 
