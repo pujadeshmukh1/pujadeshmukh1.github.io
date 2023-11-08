@@ -184,9 +184,9 @@ header .navbar ul li a:hover {
 
 /* ================================================== */
 #menu {
-  border: 2px solid red;
+  
   position: fixed;
-  top: 2rem;
+  top: 1rem;
   right: 2rem;
   background: #333;
   color: #fff;
@@ -989,14 +989,20 @@ text.ContributionCalendar-label {
 } */
 @media (max-width: 900px) {
   header {
-    left: -120%;
+    /* border: 2px solid red; */
+    /* position: fixed; */
   }
 
   #menu {
     display: block;
   }
+  .home{
+    
+    margin-top: 8%;
+  }
 
   header.toggle {
+    
     left: 0%;
   }
 
@@ -1007,6 +1013,7 @@ text.ContributionCalendar-label {
 
   #menu {
     display: block;
+   
   }
 
   header .navbar {
@@ -1058,12 +1065,18 @@ text.ContributionCalendar-label {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   #menu {
     display: block;
   }
+  .home{
+    
+    margin-top: 10%;
+  }
+  
 
   header .navbar {
+    
     position: fixed;
     top: 6.5rem;
     right: -120%;
@@ -1110,6 +1123,7 @@ text.ContributionCalendar-label {
   header .navbar.nav-toggle {
     right: 0;
   }
+
 }
 
 
@@ -1207,17 +1221,21 @@ text.ContributionCalendar-label {
 /* common media queries starts*/
 
   
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   html {
     font-size: 55%;
+    
   }
 
   body {
     padding-right: 0;
+    
+    margin-top: 5%;
   }
 
   section {
     padding: 2rem;
+    
   }
   header{
     
@@ -1227,6 +1245,7 @@ text.ContributionCalendar-label {
 
   #menu {
     display: block;
+   
   }
 
  
