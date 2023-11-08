@@ -207,6 +207,7 @@ header .navbar ul li a:hover {
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
+  
   text-align: center;
 }
 
